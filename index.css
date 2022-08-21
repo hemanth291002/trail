@@ -1,40 +1,4 @@
-/* h1{ */
-    /* height:300px; */
-    /* background-image: linear-gradient(to left,red,yellow); */
-    /* background: radial-gradient(circle closest-side,#10152c,lightblue); */
-    /* transition-property:background-color; */
-    /* transition-duration: 2s; */
-    /* transition-delay: 0.9s; */
-    /* transition-timing-function:ease; */
-    
-/* } */
-/* h1:hover{ */
-    /* background-color: pink; */
-/* } */
-/* .roy1{
-width:100px;
-height:100px;
-border: 2px solid red;
-background-color: aquamarine;
-margin:100px;
-}
-.roy1:hover{
-    transform:scale(1.5,1.5);
-} */
-
-/* .roy2{
-    width:100px;
-    height:100px;
-    border: 2px solid red;
-    background-color: aquamarine;
-    margin:100px;
-    transition: transform 2s;
-    }
-    .roy2:hover{
-        transform:skew(90deg,90deg);
-    } */
-
-/* .heading{
+.heading{ 
     text-align: center;
     margin-top:30px;
     text-shadow: 2px 2px red;

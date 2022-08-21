@@ -1,0 +1,113 @@
+/* h1{ */
+    /* height:300px; */
+    /* background-image: linear-gradient(to left,red,yellow); */
+    /* background: radial-gradient(circle closest-side,#10152c,lightblue); */
+    /* transition-property:background-color; */
+    /* transition-duration: 2s; */
+    /* transition-delay: 0.9s; */
+    /* transition-timing-function:ease; */
+    
+/* } */
+/* h1:hover{ */
+    /* background-color: pink; */
+/* } */
+/* .roy1{
+width:100px;
+height:100px;
+border: 2px solid red;
+background-color: aquamarine;
+margin:100px;
+}
+.roy1:hover{
+    transform:scale(1.5,1.5);
+} */
+
+/* .roy2{
+    width:100px;
+    height:100px;
+    border: 2px solid red;
+    background-color: aquamarine;
+    margin:100px;
+    transition: transform 2s;
+    }
+    .roy2:hover{
+        transform:skew(90deg,90deg);
+    } */
+
+/* .heading{
+    text-align: center;
+    margin-top:30px;
+    text-shadow: 2px 2px red;
+    animation-name:entry;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes entry {
+    100%{
+        transform: scale(2.5,2.5);
+    }
+}
+.outer-circle{
+    width:300px;
+    height:300px;
+    border:2px solid black;
+    margin:auto;
+    margin-top: 30%;
+    background-color: rgb(162, 186, 186);
+    border-radius: 100%;
+    animation: outer;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction:reverse;
+}
+.outer-circle:hover{
+    animation-play-state: paused;
+}
+
+@keyframes outer{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.inner-circle{
+    width:30px;
+    height:30px;
+    background-color: rgb(193, 57, 34);
+    margin:auto;
+    border-radius: 50%;
+} */
+
+
+.jumping{
+
+    width:50px;
+    height:50px;
+    background-color: tomato;
+    border-radius: 50%;
+    animation:jump;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    
+}
+
+@keyframes jump {
+    0%{
+        transform: translate(50px,0px);
+    }
+    25%{
+        transform: translate(100px,100px);
+    }
+    50%{
+        transform: translate(350px,0px);
+    }
+    75%{
+        transform: translate(500px,150px);
+    }
+    100%{
+        transform: translate(600px,0px);
+    }
+}
